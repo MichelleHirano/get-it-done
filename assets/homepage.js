@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 var getUserRepos = function(user) {
   // format the github api url
   var apiUrl = "https://api.github.com/users/" + user + "/repos";
@@ -10,3 +11,10 @@ var getUserRepos = function(user) {
   });
 };
   getUserRepos();
+=======
+var getUserRepos = function() {
+  fetch("https://api.github.com/users/octocat/repos");
+};
+  getUserRepos();
+  
+>>>>>>> Stashed changes
